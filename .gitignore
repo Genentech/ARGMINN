@@ -1,0 +1,10 @@
+*.swp
+*.pyc
+.ipynb_checkpoints/
+notebooks/archive/
+figures/
+!notebooks/figures/
+lightning_logs/
+notebooks/figures/r
+notebooks/artifacts
+notebooks/figures/artifacts
