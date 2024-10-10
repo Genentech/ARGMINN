@@ -12,7 +12,7 @@ Previous methods have tried to interpret individual first-layer convolutional fi
 
 Instead, ARGMINN (Analysis of Regulatory Genomics with a Mechanistically Interpretable Neural Network) is a carefully designed neural-network architecture (along with special regularization) such that after training, the motifs and syntax are directly readable from the model's weights and activations. This allows ARGMINN to reveal motifs and syntax clearly without relying on importance scores.
 
-See the corresponding paper for more information, including a full description of the ARGMINN architecture, comparisons and benchmarks on its interpretability and performance, and theoretical properties.
+See the [corresponding paper](https://arxiv.org/abs/2410.06211) for more information, including a full description of the ARGMINN architecture, comparisons and benchmarks on its interpretability and performance, and theoretical properties.
 
 This repository houses all of the code used to generate the results for the paper, including code that processes data, trains models, implements ARGMINN models, and generates all figures in the paper.
 
@@ -26,7 +26,7 @@ This notebook is meant to be an entirely self-contained example of how to use th
 
 If you found ARGMINN to be helpful for your work, please cite the following:
 
-Tseng, A.M., Eraslan, G., Biancalani, T., Scalia, G. A mechanistically interpretable neural network for regulatory genomics. arXiv (2024).
+Tseng, A.M., Eraslan, G., Biancalani, T., Scalia, G. A mechanistically interpretable neural network for regulatory genomics. arXiv (2024). [[Link]](https://arxiv.org/abs/2410.06211)
 
 ### Description of files and directories
 
